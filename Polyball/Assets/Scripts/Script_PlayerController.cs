@@ -8,15 +8,18 @@ public class Script_PlayerController : MonoBehaviour
     SphereCollider Collider;
 
     public Vector3 movementForce;
+    private float playerSpeed;
     void processInput()
     {
-        if (Input.GetKeyDown(KeyCode.D))
+        if(rigidBody)
+        if (Input.GetKey(KeyCode.D))
         {
             rigidBody.AddForce(movementForce);
         }
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
             rigidBody.AddForce(-movementForce);
+
         }
     }
     // Start is called before the first frame update
