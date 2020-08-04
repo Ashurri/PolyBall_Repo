@@ -63,36 +63,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\playerPowerUp.cs" />
     <Compile Include="Assets\Script_Camera.cs" />
-    <Compile Include="Assets\Scripts\Script_Camera.cs" />
-    <Compile Include="Assets\Scripts\Script_DoubleJump.cs" />
     <Compile Include="Assets\Scripts\Script_PlayerController.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Users/Ashley.ric9026/Desktop/unityh game/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Users/Ashley.Ric9026/Desktop/PolyBall_repo/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Users/Ashley.ric9026/Desktop/unityh game/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Users/Ashley.Ric9026/Desktop/PolyBall_repo/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Users/Ashley.ric9026/Desktop/unityh game/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Users/Ashley.Ric9026/Desktop/PolyBall_repo/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Users/Ashley.ric9026/Desktop/unityh game/PolyBall_Repo/Polyball/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Users/Ashley.Ric9026/Desktop/PolyBall_repo/PolyBall_Repo/Polyball/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Users/Ashley.ric9026/Desktop/unityh game/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Users/Ashley.Ric9026/Desktop/PolyBall_repo/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Users/Ashley.ric9026/Desktop/unityh game/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Users/Ashley.Ric9026/Desktop/PolyBall_repo/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Users/Ashley.ric9026/Desktop/unityh game/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Users/Ashley.Ric9026/Desktop/PolyBall_repo/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Users/Ashley.ric9026/Desktop/unityh game/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Users/Ashley.Ric9026/Desktop/PolyBall_repo/PolyBall_Repo/Polyball/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Users/Ashley.ric9026/Desktop/unityh game/PolyBall_Repo/Polyball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Users/Ashley.Ric9026/Desktop/PolyBall_repo/PolyBall_Repo/Polyball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/apps/unity/2019.2.7f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
