@@ -6,12 +6,18 @@ public class Script_PlayerController : MonoBehaviour
 {
     Rigidbody rigidBody;
     SphereCollider Collider;
+    public int ijumpMax;
+    public int ijumpCount;
+   
+    private Vector3 currentVelocity;
+    private Vector3 maximumVelocity;
 
+    public Vector3 jumpForce;
     public Vector3 movementForce;
-    private float playerSpeed;
+
+    //Function for all Input process's
     void processInput()
     {
-        if(rigidBody)
         if (Input.GetKey(KeyCode.D))
         {
             rigidBody.AddForce(movementForce);
@@ -19,19 +25,38 @@ public class Script_PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             rigidBody.AddForce(-movementForce);
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (ijumpCount != ijumpMax)
+            {
+                rigidBody.AddForce(jumpForce);
+                ijumpCount++;
+            }
+        }
+    }
 
+    //OnCollisionEnter Event triggers everytime the rigidbody collides
+    //with another rigidbody/collisionbox
+    private void OnCollisionEnter(Collision _collision)
+    {
+        if (_collision.collider.tag == "Ground")
+        {
+            ijumpCount = 0;
         }
     }
     // Start is called before the first frame update
     void Start()
     {
-         rigidBody = this.GetComponent<Rigidbody>();
-         Collider = this.GetComponent<SphereCollider>();
+        currentVelocity = rigidBody.velocity;
+        rigidBody = this.GetComponent<Rigidbody>();
+        Collider = this.GetComponent<SphereCollider>();
     }
 
     // Update is called once per frame
     void Update()
     {
         processInput();
+        Debug.Log(currentVelocity);
     }
 }
